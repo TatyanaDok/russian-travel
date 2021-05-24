@@ -5,6 +5,12 @@
   }
   @font-face {
     font-family: "Inter";
-    src: url(../../vendor/fonts/Inter-SemiBold.woff);
+    src: url(../../vendor/fonts/Inter-Bold.woff);
     font-weight: bold;
   }
+  @font-face {
+    font-family: "Inter";
+    src: url(../../vendor/fonts/Inter-Black.woff2);
+    font-weight: 900;
+  }
+  

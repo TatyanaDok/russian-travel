@@ -1,0 +1,32 @@
+.root {
+
+    width: 1280px;
+   -webkit-font-smoothing:antialiased;
+    background-color: #2a2c2f;
+    margin: 0 auto;
+    position: relative;
+    font-family: Inter,Arial,sans-serif;
+    color: #ffffff;
+    padding-top: 28px;
+    padding-bottom: 24px;
+  }
+  @media screen and (max-width: 1279px) {
+    .root {
+     width: 100vw;
+    }
+  }
+  @media screen and (max-width: 424px){
+    .root{
+      padding-top: 16px;
+    }
+  }
+  @font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-Regular.woff2);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-SemiBold.woff);
+    font-weight: bold;
+  }

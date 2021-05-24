@@ -1,0 +1,10 @@
+.lead__text {
+    font-weight: normal;
+    font-size: 10px;
+    max-width: 158px;
+    line-height: 1.4;
+    font-style: normal;
+    align-self: start;
+    text-align: start;
+    margin-top: 8px;
+  }

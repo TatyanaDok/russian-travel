@@ -7,10 +7,10 @@
     color: #ffffff;
     width: 456px;
     margin: 12px 28px 0 0;
-    opacity: 0.8;
+  
   }
   .place__link:hover{
-    opacity: 0.3;
+    opacity: 0.8;
   }
   @media screen and (max-width: 1023px){
     .place__link{

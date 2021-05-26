@@ -1,0 +1,6 @@
+.intro__paragraph{
+    margin: 0 auto 5px;
+}
+.intro__paragraph:last-child{
+    margin-bottom: 0;
+}

@@ -6,11 +6,9 @@
     line-height: 1;
     color: #AAAAAA;
     margin: 106px 28px 0 0;
-    opacity: 0.3;
+    letter-spacing: 0.2em;
   }
-  .place__url-heading:hover{
-    opacity: 0.8;
-  }
+  
   @media screen and (max-width: 1023px){
     .place__url-heading {
       margin: 0;

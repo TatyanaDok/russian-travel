@@ -7,6 +7,12 @@
     margin: 32px auto 0;
     position: relative;
     
+    
+  }
+  @media screen and (max-width: 767px){
+    .cover__subtitle{
+    margin: 22px auto 0;
+    }
   }
   @media screen and (max-width: 424px){
     .cover__subtitle {

@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,7 @@
    background-image: url("../../images/cover.jpg");
     position: relative;
     box-sizing: border-box;
+    justify-content: center;
   }
   .cover::before{
     background: #2a2c2f;
@@ -26,17 +27,14 @@
   @media screen and (max-width: 1279px){
     .cover{
       width: 100vw;
-      height: 62.5vw;
+      min-height: 62.5vw;
     }
   }
-  @media screen and (max-width: 1023px){
-    .cover{
-      width: 100%;
-    }
-  }
+  
+
   @media screen and (max-width: 767px){
     .cover{
       margin: 50px auto 48px;
-    
+      
     }
   }

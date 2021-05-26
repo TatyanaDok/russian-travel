@@ -1,10 +1,24 @@
 .lead__text {
     font-weight: normal;
     font-size: 10px;
-    max-width: 158px;
     line-height: 1.4;
     font-style: normal;
     align-self: start;
     text-align: start;
     margin-top: 8px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
   }
+  @media screen and (max-width: 1023px){
+    .lead__text{
+      margin-left: 24px;
+    }
+    
+  }
+  @media screen and (max-width: 424px){
+    .lead__text{
+      margin-left: 16px;
+    }
+    
+  }
+  

@@ -1,27 +1,30 @@
 .footer__link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.1;
-    color: #ffffff;
-    opacity: 0.8;
-    text-decoration: none;
-    
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: normal;
+   line-height: 1.1;
+   margin-right: 18px;
+   
   }
+  .footer__link a{
+    list-style-type: none;
+  }
+  
   .footer__link:hover{
-    opacity: 0.3;
+   opacity: 0.8;
   }
   @media screen and (max-width: 767px){
     .footer__link {
       font-size: 10px;
-       
-       
+      margin-right: 8px;
      }
+    
   }
   @media screen and (max-width: 424px){
     .footer__link {
-      line-height: 1;
       font-size: 24px;
-      margin: 0;
+      
+      
     }
   }

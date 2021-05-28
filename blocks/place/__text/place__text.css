@@ -1,0 +1,6 @@
+.place__text{
+    margin: 0 0 27px;
+}
+.place__text:last-child{
+    margin: 0;
+}

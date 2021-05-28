@@ -1,0 +1,9 @@
+.footer__content{
+    align-self: flex-end;
+}
+@media screen and (max-width: 424px){
+    .footer__content{
+        align-self: flex-start;
+    }
+    
+}

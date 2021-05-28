@@ -5,15 +5,24 @@
     line-height: 1.1;
     max-width: 560px;
     position: relative;
-    margin-bottom: 0;
+    margin: 245px auto 0;
     
    
   }
-  
+  @media screen and (max-width: 1279px){
+    .cover__title{
+      margin: 195px auto 0;
+    }
+  }
+  @media screen and (max-width: 1023px){
+    .cover__title{
+      margin: 115px auto 0;
+    }
+  }
   @media screen and (max-width: 767px){
     .cover__title {
       font-size: 55px;
-      
+      margin: 60px auto 0;
       
     }
   }
@@ -21,7 +30,7 @@
     .cover__title {
       font-size: 32px;
       width: 288px;
-      
+      margin: 33px auto 0;
      
     }
   }

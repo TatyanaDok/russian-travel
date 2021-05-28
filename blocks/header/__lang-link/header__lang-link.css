@@ -7,6 +7,9 @@
     text-decoration: none;
     margin-left: 18px;
   }
+  .header__lang-link:hover{
+    text-decoration-line: underline;
+  }
   
   .header__lang-link:first-child {
     margin: 0;

@@ -4,22 +4,20 @@
     font-size: 18px;
     line-height: 1.2;
     max-width: 360px;
-    margin: 32px auto 0;
+    margin: 32px 0 0;
     position: relative;
     
     
   }
   @media screen and (max-width: 767px){
     .cover__subtitle{
-    margin: 22px auto 0;
+    margin: 22px 0 0;
     }
   }
   @media screen and (max-width: 424px){
     .cover__subtitle {
       font-size: 14px;
-      line-height: 1.2;
-      width: 288px;
-      margin-top: 16px;
+      margin: 16px 0 0;
       
     }
   }
